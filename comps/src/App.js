@@ -16,11 +16,13 @@ const App = () => {
   ];
 
   return (
-    <Dropdown 
-      options={options}
-      selection={selection}
-      onSelect={handleSelect}
-    />
+    <div>
+      <Dropdown 
+        options={options}
+        selection={selection}
+        onSelect={handleSelect}
+      />
+    </div>
   );
 }
 
